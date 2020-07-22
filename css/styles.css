@@ -1,0 +1,31 @@
+:root {
+    --main-bg-color1: #000;
+    --main-bg-color2: #222;
+    --main-bg-color3: #4444;
+    --main-bg-color4: #666666;
+    --main-bg-color5: #888888;
+    --main-bg-color6: #aaaaaa;
+    --main-bg-color7: #cccccc;
+    --main-bg-color7: #eeeeee;
+    --main-bg-color7: #ffffff;
+
+  }
+  body {
+      margin: 0;
+  }
+
+  .header {
+      background-color: var(--main-bg-color3);
+      height: 60px;
+  }
+
+  .titles-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .title-card {
+      height: 600px;
+      background-color: var(--main-bg-color2);
+      border: 1px #fff solid;
+  }
