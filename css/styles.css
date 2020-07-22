@@ -104,6 +104,23 @@
   border-radius: 8px;
 }
 
+/* ================================== title section =========================================== */
+
+.dont-miss {
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  width: 430px;
+  left: 35%;
+  top: 140px;
+}
+
+.dont-miss h1 {
+  display: inline;
+  background-color: var(--main-bg-color9);
+  margin: 0 auto 0 auto;
+}
+
 .titles-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
