@@ -6,26 +6,56 @@
     --main-bg-color5: #888888;
     --main-bg-color6: #aaaaaa;
     --main-bg-color7: #cccccc;
-    --main-bg-color7: #eeeeee;
-    --main-bg-color7: #ffffff;
+    --main-bg-color8: #eeeeee;
+    --main-bg-color9: #ffffff;
 
   }
   body {
       margin: 0;
   }
 
-  .header {
-      background-color: var(--main-bg-color3);
-      height: 60px;
-  }
+/* ========================== Header ====================================== */
+.header {
+  display: flex;
+  background-color: var(--main-bg-color3);
+  height: 104px;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  .titles-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-  }
+.header-left {
+  height: 80%;
+  background-color: blue;
+  width: 10%;
+}
 
-  .title-card {
-      height: 600px;
-      background-color: var(--main-bg-color2);
-      border: 1px #fff solid;
-  }
+.header-middle {
+  display: flex;
+  height: 80%;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  background-color: var(--main-bg-color9);
+  width: 12%;
+  height: 50%;
+}
+
+.header-right {
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.titles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title-card {
+    height: 600px;
+    background-color: var(--main-bg-color2);
+    border: 1px #fff solid;
+}
