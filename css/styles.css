@@ -1,7 +1,7 @@
 :root {
     --main-bg-color1: #000;
     --main-bg-color2: #222;
-    --main-bg-color3: #4444;
+    --main-bg-color3: #444;
     --main-bg-color4: #666666;
     --main-bg-color5: #888888;
     --main-bg-color6: #aaaaaa;
@@ -17,22 +17,49 @@
 /* ========================== Header ====================================== */
 .header {
   display: flex;
-  background-color: var(--main-bg-color3);
+  background-color: var(--main-bg-color5);
   height: 104px;
   justify-content: space-around;
   align-items: center;
 }
 
 .header-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 80%;
-  background-color: blue;
-  width: 10%;
+  width: 18%;
+}
+
+.header-logo {
+  background-color: var(--main-bg-color9);
+  height: 3.5em;
+  width: 3.5em;
+  transform: rotate(-20deg);
+  border-radius: 5px;
+}
+
+.header-logo-name {
+  height: 80%;
+  width: 70%;
+}
+
+.header-logo-name div{
+  background-color: var(--main-bg-color9);
+  height: 50%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.header-logo-name div:last-child{
+  height: 20%;
+  width: 70%;
 }
 
 .header-middle {
   display: flex;
   height: 80%;
-  width: 60%;
+  width: 50%;
   justify-content: space-between;
   align-items: center;
 }
@@ -40,13 +67,41 @@
 .nav-item {
   background-color: var(--main-bg-color9);
   width: 12%;
+  height: 30%;
+}
+
+.nav-item:last-child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   height: 50%;
+  border-radius: 5px;
+  background-color: var(--main-bg-color4);
+}
+
+.nav-item:last-child div {
+  height: 50%;
+  width: 50%;
+  background-color: var(--main-bg-color9);
+}
+
+.nav-item:last-child div:last-child {
+  width: 25%;
+  
 }
 
 .header-right {
   height: 80%;
   display: flex;
+  width: 20%;
   align-items: center;
+}
+
+.header-right input {
+  width: 100%;
+  height: 60%;
+  border: none;
+  border-radius: 8px;
 }
 
 .titles-grid {
