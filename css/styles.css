@@ -124,7 +124,7 @@ body {
   display: inline;
   background-color: var(--main-bg-color9);
   margin: 0 auto 0 auto;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .titles-grid {
@@ -213,4 +213,49 @@ body {
   width: 40px;
   height: 20px;
   margin-top: 100px;
+}
+
+/* ================================== Articles section =========================================== */
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  padding: 5px;
+  justify-items: center;
+  align-items: center;
+  background-color: var(--main-bg-color8);
+
+}
+
+.article-card {
+  height: 500px;
+  width: 100%;
+  background-color: var(--main-bg-color8);
+  padding-top: 30px;
+  padding-left: 100px;
+}
+
+.article-card h1{
+  width: 80%;
+  height: 50px;
+  background-color: var(--main-bg-color1);
+}
+
+.article-card p:nth-child(2) {
+  width: 30%;
+  height: 10px;
+  background-color: var(--main-bg-color4);
+}
+
+.article-card p:nth-child(n+3) {
+  width: 70%;
+  height: 13px;
+  background-color: var(--main-bg-color6);
+}
+
+.article-card img {
+  width: 30px;
+  height: 30px;
+  margin-top: 200px;
 }
