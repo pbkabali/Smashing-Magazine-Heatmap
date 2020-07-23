@@ -11,7 +11,8 @@
 
 }
 body {
-    margin: 0;
+  margin: 0;
+  background-color: var(--main-bg-color8);
 }
 
 .flex {
@@ -124,7 +125,7 @@ body {
   display: inline;
   background-color: var(--main-bg-color9);
   margin: 0 auto 0 auto;
-  font-size: 2em;
+  font-size: 25px;
 }
 
 .titles-grid {
@@ -270,4 +271,98 @@ body {
   width: 30px;
   height: 30px;
   margin-top: 200px;
+}
+
+.latest-articles {
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 5px solid var(--main-bg-color2);
+  font-size: 15px;
+  font-weight: 100;
+  cursor: pointer;
+  width: 220px;
+  margin: 150px auto;
+  padding-bottom: 10px;
+}
+
+/* ========================================= Jump to table of content ======================================== */
+
+.encourage {
+  width: 100%;
+  background-color: var(--main-bg-color3);
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 40px;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--main-bg-color9);
+  
+}
+
+.encourage p:first-child {
+  text-transform: uppercase;
+}
+
+.encourage div:nth-child(2) {
+  height: 50px;
+  width: 60%;
+  background-color: var(--main-bg-color9);
+  margin-top: 40px;
+}
+
+.encourage div:nth-child(3) {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  height: 50px;
+  width: 45%;
+  background-color: var(--main-bg-color9);
+}
+
+.encourage p:nth-child(4) {
+  width: 60%;
+  height: 20px;
+  background-color: var(--main-bg-color9);
+}
+
+.encourage p:nth-child(5) {
+  width: 50%;
+  height: 20px;
+  margin-top: 0;
+  background-color: var(--main-bg-color9);
+  margin-bottom: 50px;
+}
+
+.encourage div:nth-child(6) {
+  width: 30%;
+  height: 60px;
+  cursor: pointer;
+  background-color: var(--main-bg-color9);
+  color: var(--main-bg-color3);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.encourage div:nth-child(6):hover {
+  color: var(--main-bg-color5);
+}
+
+.encourage div:last-child {
+  background-color: var(--main-bg-color4);
+  height: 550px;
+  width: 550px;
+  border: none;
+  border-radius: 50%;
+}
+
+.encourage div:last-child div {
+  background-color: var(--main-bg-color2);
+  height: 450px;
+  width: 300px;
+  border-radius: 0;
+  margin: auto;
+  margin-left: 150px;
+  margin-top: 50px;
 }
