@@ -230,10 +230,22 @@ body {
 
 .article-card {
   height: 500px;
-  width: 100%;
+  width: 80%;
   background-color: var(--main-bg-color8);
   padding-top: 30px;
+  padding-left: 50px;
+  margin-right: 50px;
+}
+.article-card:hover {
+  transform: scale(1.2);
+  background-color: var(--main-bg-color9);
+}
+
+.article-card:nth-child(5){
+  background-color: var(--main-bg-color3);
+  padding-top: 30px;
   padding-left: 100px;
+  border-radius: 10px;
 }
 
 .article-card h1{
