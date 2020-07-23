@@ -15,6 +15,12 @@ body {
   background-color: var(--main-bg-color8);
 }
 
+body * {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .flex {
   display: flex;
   align-items: center;
@@ -455,3 +461,67 @@ justify-content: center;
   height: 15px;
   background-color: var(--main-bg-color6);
 }
+
+/* ========================================= Design Systems ======================================== */
+
+.design {
+  width: 100%;
+  padding: 60px;
+  background-color: var(--main-bg-color3);
+  justify-content: space-between;
+}
+
+.design div:first-child {
+  width: 60%;
+}
+
+.design div:first-child p:first-child {
+  width: 30%;
+  height: 15px;
+  margin: 0;
+  color: var(--main-bg-color8);
+}
+
+.design div:first-child h3 {
+  width: 50%;
+  font-size: 40px;
+  color: var(--main-bg-color8);
+  text-decoration: underline;
+}
+
+.design div:first-child p:nth-child(n+3) {
+  color: var(--main-bg-color9);
+  font-size: 15px;
+}
+
+.design div:first-child div {
+  background-color: var(--main-bg-color9);
+  border: none;
+  border-radius: 10px;
+  color: var(--main-bg-color2);
+  width: 45%;
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.design div:first-child div:hover {
+  color: var(--main-bg-color3);
+}
+
+.design div:nth-child(2) {
+  width: 18%;
+  height: 400px;
+  margin-top: -100px;
+  background-color: var(--main-bg-color5);
+  transform: rotate(-15deg);
+  transform-origin: 0% 100%;
+  transition-duration: 0.4s;
+}
+
+.design div:nth-child(2):hover {
+  transform: rotate(0);
+}
+
+/* ========================================= web technologies ======================================== */
