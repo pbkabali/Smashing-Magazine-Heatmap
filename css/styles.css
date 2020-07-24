@@ -2,14 +2,14 @@
   --main-bg-color1: #000;
   --main-bg-color2: #222;
   --main-bg-color3: #444;
-  --main-bg-color4: #666666;
-  --main-bg-color5: #888888;
-  --main-bg-color6: #aaaaaa;
-  --main-bg-color7: #cccccc;
-  --main-bg-color8: #eeeeee;
-  --main-bg-color9: #ffffff;
-
+  --main-bg-color4: #666;
+  --main-bg-color5: #888;
+  --main-bg-color6: #aaa;
+  --main-bg-color7: #ccc;
+  --main-bg-color8: #eee;
+  --main-bg-color9: #fff;
 }
+
 body {
   margin: 0;
   background-color: var(--main-bg-color8);
@@ -56,14 +56,14 @@ body * {
   width: 70%;
 }
 
-.header-logo-name div{
+.header-logo-name div {
   background-color: var(--main-bg-color9);
   height: 50%;
   width: 100%;
   margin-bottom: 10px;
 }
 
-.header-logo-name div:last-child{
+.header-logo-name div:last-child {
   height: 20%;
   width: 70%;
 }
@@ -99,7 +99,6 @@ body * {
 
 .nav-item:last-child div:last-child {
   width: 25%;
-  
 }
 
 .header-right {
@@ -194,7 +193,8 @@ body * {
   margin-bottom: 55px;
 }
 
-.title div:first-child , .title div:nth-child(2) {
+.title div:first-child,
+.title div:nth-child(2) {
   background-color: var(--main-bg-color9);
   width: 400px;
   height: 40px;
@@ -234,7 +234,6 @@ body * {
   justify-items: center;
   align-items: center;
   background-color: var(--main-bg-color8);
-
 }
 
 .article-card {
@@ -245,19 +244,20 @@ body * {
   padding-left: 50px;
   margin-right: 50px;
 }
+
 .article-card:hover {
   transform: scale(1.2);
   background-color: var(--main-bg-color9);
 }
 
-.article-card:nth-child(5){
+.article-card:nth-child(5) {
   background-color: var(--main-bg-color3);
   padding-top: 30px;
   padding-left: 100px;
   border-radius: 10px;
 }
 
-.article-card h1{
+.article-card h1 {
   width: 80%;
   height: 50px;
   background-color: var(--main-bg-color1);
@@ -304,7 +304,6 @@ body * {
   flex-direction: column;
   justify-content: space-between;
   color: var(--main-bg-color9);
-  
 }
 
 .encourage p:first-child {
@@ -384,6 +383,7 @@ body * {
 }
 
 .person-of-the-week div {
+  float: left;
   width: 200px;
   height: 200px;
   background-color: var(--main-bg-color4);
@@ -395,23 +395,25 @@ body * {
   margin-right: 50px;
 }
 
-.person-of-the-week div:hover {  
+.person-of-the-week div:hover {
   transform: rotate(0);
 }
 
 .person-of-the-week article p:first-child {
-  width: 300px;
+  width: 40%;
   height: 20px;
   background-color: var(--main-bg-color6);
   margin-bottom: 50px;
 }
 
 .person-of-the-week article {
+  float: left;
   height: 300px;
+  width: 70%;
 }
 
 .person-of-the-week article p:nth-child(n+2) {
-  width: 900px;
+  width: 100%;
   height: 20px;
   background-color: var(--main-bg-color6);
 }
@@ -419,16 +421,17 @@ body * {
 /* ========================================= More Articles Section ======================================== */
 
 .more-articles {
+  clear: both;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .more-articles div {
-padding: 20px;
-justify-content: center;
+  padding: 20px;
+  justify-content: center;
 }
 
-.more-articles div div{
+.more-articles div div {
   width: 30px;
   height: 30px;
   background-color: var(--main-bg-color4);
@@ -547,7 +550,7 @@ justify-content: center;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .web-tech div p:first-child {
@@ -577,12 +580,13 @@ justify-content: center;
   margin-top: 40px;
   cursor: pointer;
 }
+
 .web-tech div:last-child {
   background-color: var(--main-bg-color4);
 }
 
 .web-tech div:last-child .web-tech-last-1 {
-  background-color: var(--main-bg-color3); 
+  background-color: var(--main-bg-color3);
   border: 20px solid var(--main-bg-color7);
   border-radius: 50%;
   height: 300px;
@@ -596,13 +600,12 @@ justify-content: center;
 }
 
 .web-tech div:last-child .web-tech-last-2 div:first-child {
-width: 60%;
-height: 80px;
-background-color: var(--main-bg-color8);
-border-top-right-radius: 0;
-border-bottom-right-radius: 0;
+  width: 60%;
+  height: 80px;
+  background-color: var(--main-bg-color8);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
-
 
 .web-tech div:last-child .web-tech-last-2 div:nth-child(2) {
   width: 40%;
@@ -663,14 +666,14 @@ border-bottom-right-radius: 0;
   width: 80%;
   margin-left: 200px;
 }
-.tweety-left{
+
+.tweety-left {
   width: 100px;
   height: 200px;
   background-color: var(--main-bg-color7);
   border: 5px solid var(--main-bg-color1);
   border-top-left-radius: 40%;
   border-top-right-radius: 40%;
-
 }
 
 .granny {
@@ -683,7 +686,7 @@ border-bottom-right-radius: 0;
   background-color: var(--main-bg-color8);
 }
 
-.granny div:nth-child(2){
+.granny div:nth-child(2) {
   margin-top: 60px;
   width: 400px;
   flex-wrap: wrap;
