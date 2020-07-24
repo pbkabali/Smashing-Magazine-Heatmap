@@ -581,13 +581,49 @@ justify-content: center;
   background-color: var(--main-bg-color4);
 }
 
-.web-tech div:last-child div:first-child {
+.web-tech div:last-child .web-tech-last-1 {
   background-color: var(--main-bg-color3); 
   border: 20px solid var(--main-bg-color7);
   border-radius: 50%;
   height: 300px;
   width: 300px;
   margin: 0 auto 0 auto;
+}
+
+.web-tech div:last-child .web-tech-last-2 {
+  margin: auto;
+  width: 90%;
+}
+
+.web-tech div:last-child .web-tech-last-2 div:first-child {
+width: 60%;
+height: 80px;
+background-color: var(--main-bg-color8);
+border-top-right-radius: 0;
+border-bottom-right-radius: 0;
+}
+
+
+.web-tech div:last-child .web-tech-last-2 div:nth-child(2) {
+  width: 40%;
+  height: 80px;
+  background-color: var(--main-bg-color5);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.web-tech div:last-child h3 {
+  width: 70%;
+  height: 50px;
+  background-color: var(--main-bg-color8);
+  margin: 50px auto 50px 0;
+}
+
+.web-tech div:last-child p {
+  width: 90%;
+  height: 15px;
+  background-color: var(--main-bg-color8);
+  margin: 10px auto 10px 0;
 }
 
 /* =============================================== Footer ======================================= */
