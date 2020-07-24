@@ -26,7 +26,6 @@ body * {
   align-items: center;
 }
 
-/* ========================== Header ====================================== */
 .header {
   display: flex;
   background-color: var(--main-bg-color6);
@@ -63,11 +62,6 @@ body * {
   margin-bottom: 10px;
 }
 
-.header-logo-name div:last-child {
-  height: 20%;
-  width: 70%;
-}
-
 .header-middle {
   display: flex;
   height: 80%;
@@ -80,25 +74,6 @@ body * {
   background-color: var(--main-bg-color9);
   width: 12%;
   height: 30%;
-}
-
-.nav-item:last-child {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 50%;
-  border-radius: 5px;
-  background-color: var(--main-bg-color4);
-}
-
-.nav-item:last-child div {
-  height: 50%;
-  width: 50%;
-  background-color: var(--main-bg-color9);
-}
-
-.nav-item:last-child div:last-child {
-  width: 25%;
 }
 
 .header-right {
@@ -114,8 +89,6 @@ body * {
   border: none;
   border-radius: 8px;
 }
-
-/* ================================== title section =========================================== */
 
 .dont-miss {
   z-index: 2;
@@ -146,65 +119,9 @@ body * {
   cursor: pointer;
 }
 
-.title-card:nth-child(2) {
-  background-color: var(--main-bg-color4);
-}
-
-.title-card:nth-child(3) {
-  background-color: var(--main-bg-color5);
-}
-
-.title-card:nth-child(4) {
-  padding-top: 70px;
-  background-color: var(--main-bg-color3);
-  height: 600px;
-}
-
-.title-card:nth-child(5) {
-  padding-top: 70px;
-  background-color: var(--main-bg-color4);
-  height: 600px;
-}
-
-.title-profile div:nth-child(1) {
-  width: 60px;
-  height: 60px;
-  background-color: var(--main-bg-color7);
-  margin-right: 30px;
-  transform: rotate(-15deg);
-  transform-origin: 0% 100%;
-  transition-duration: 0.5s;
-  border-radius: 5px;
-  border: 5px solid var(--main-bg-color9);
-}
-
-.title-profile div:nth-child(1):hover {
-  transform: rotate(0);
-}
-
-.title-profile div:nth-child(2) {
-  width: 200px;
-  height: 20px;
-  background-color: var(--main-bg-color9);
-}
-
 .title {
   margin-top: 50px;
   margin-bottom: 55px;
-}
-
-.title div:first-child,
-.title div:nth-child(2) {
-  background-color: var(--main-bg-color9);
-  width: 400px;
-  height: 40px;
-  margin-bottom: 20px;
-}
-
-.title div:nth-child(3) {
-  background-color: var(--main-bg-color9);
-  width: 200px;
-  height: 15px;
 }
 
 .hashtag {
@@ -223,8 +140,6 @@ body * {
   height: 20px;
   margin-top: 100px;
 }
-
-/* ================================== Articles section =========================================== */
 
 .articles-grid {
   display: grid;
@@ -245,34 +160,10 @@ body * {
   margin-right: 50px;
 }
 
-.article-card:hover {
-  transform: scale(1.2);
-  background-color: var(--main-bg-color9);
-}
-
-.article-card:nth-child(5) {
-  background-color: var(--main-bg-color3);
-  padding-top: 30px;
-  padding-left: 100px;
-  border-radius: 10px;
-}
-
 .article-card h1 {
   width: 80%;
   height: 50px;
   background-color: var(--main-bg-color1);
-}
-
-.article-card p:nth-child(2) {
-  width: 30%;
-  height: 10px;
-  background-color: var(--main-bg-color4);
-}
-
-.article-card p:nth-child(n+3) {
-  width: 70%;
-  height: 13px;
-  background-color: var(--main-bg-color6);
 }
 
 .article-card img {
@@ -293,8 +184,6 @@ body * {
   padding-bottom: 10px;
 }
 
-/* ========================================= Jump to table of content ======================================== */
-
 .encourage {
   width: 100%;
   background-color: var(--main-bg-color3);
@@ -305,76 +194,6 @@ body * {
   justify-content: space-between;
   color: var(--main-bg-color9);
 }
-
-.encourage p:first-child {
-  text-transform: uppercase;
-}
-
-.encourage div:nth-child(2) {
-  height: 50px;
-  width: 60%;
-  background-color: var(--main-bg-color9);
-  margin-top: 40px;
-}
-
-.encourage div:nth-child(3) {
-  margin-top: 10px;
-  margin-bottom: 50px;
-  height: 50px;
-  width: 45%;
-  background-color: var(--main-bg-color9);
-}
-
-.encourage p:nth-child(4) {
-  width: 60%;
-  height: 20px;
-  background-color: var(--main-bg-color9);
-}
-
-.encourage p:nth-child(5) {
-  width: 50%;
-  height: 20px;
-  margin-top: 0;
-  background-color: var(--main-bg-color9);
-  margin-bottom: 50px;
-}
-
-.encourage div:nth-child(6) {
-  width: 30%;
-  height: 60px;
-  cursor: pointer;
-  background-color: var(--main-bg-color9);
-  color: var(--main-bg-color3);
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 50px;
-  border-radius: 10px;
-  margin-bottom: 60px;
-}
-
-.encourage div:nth-child(6):hover {
-  color: var(--main-bg-color5);
-}
-
-.encourage div:last-child {
-  background-color: var(--main-bg-color4);
-  height: 550px;
-  width: 550px;
-  border: none;
-  border-radius: 50%;
-}
-
-.encourage div:last-child div {
-  background-color: var(--main-bg-color2);
-  height: 450px;
-  width: 300px;
-  border-radius: 0;
-  margin: auto;
-  margin-left: 150px;
-  margin-top: 50px;
-}
-
-/* ========================================= Person of the Week ======================================== */
 
 .person-of-the-week {
   padding: 100px;
@@ -395,30 +214,11 @@ body * {
   margin-right: 50px;
 }
 
-.person-of-the-week div:hover {
-  transform: rotate(0);
-}
-
-.person-of-the-week article p:first-child {
-  width: 40%;
-  height: 20px;
-  background-color: var(--main-bg-color6);
-  margin-bottom: 50px;
-}
-
 .person-of-the-week article {
   float: left;
   height: 300px;
   width: 70%;
 }
-
-.person-of-the-week article p:nth-child(n+2) {
-  width: 100%;
-  height: 20px;
-  background-color: var(--main-bg-color6);
-}
-
-/* ========================================= More Articles Section ======================================== */
 
 .more-articles {
   clear: both;
@@ -429,6 +229,18 @@ body * {
 .more-articles div {
   padding: 20px;
   justify-content: center;
+}
+
+.web-tech div {
+  background-color: var(--main-bg-color9);
+  border: none;
+  border-radius: 10px;
+  padding: 40px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  padding-bottom: 0;
 }
 
 .more-articles div div {
@@ -445,29 +257,11 @@ body * {
   margin-top: 25px;
 }
 
-.more-articles div div:hover {
-  transform: rotate(0);
-}
-
-.more-articles div article p:first-child {
-  width: 150px;
-  height: 10px;
-  background-color: var(--main-bg-color4);
-}
-
 .more-articles div article h1 {
   width: 300px;
   height: 20px;
   background-color: var(--main-bg-color2);
 }
-
-.more-articles div article p:nth-child(n+3) {
-  width: 500px;
-  height: 15px;
-  background-color: var(--main-bg-color6);
-}
-
-/* ========================================= Design Systems ======================================== */
 
 .design {
   width: 100%;
@@ -477,93 +271,16 @@ body * {
   margin-top: 50px;
 }
 
-.design div:first-child {
-  width: 60%;
-}
-
-.design div:first-child p:first-child {
-  width: 30%;
-  height: 15px;
-  margin: 0;
-  color: var(--main-bg-color8);
-}
-
-.design div:first-child h3 {
-  width: 50%;
-  font-size: 40px;
-  color: var(--main-bg-color8);
-  text-decoration: underline;
-}
-
-.design div:first-child p:nth-child(n+3) {
-  color: var(--main-bg-color9);
-  font-size: 15px;
-}
-
-.design div:first-child div {
-  background-color: var(--main-bg-color9);
-  border: none;
-  border-radius: 10px;
-  color: var(--main-bg-color2);
-  width: 45%;
-  font-size: 20px;
-  padding: 20px;
-  cursor: pointer;
-  text-align: center;
-}
-
-.design div:first-child div:hover {
-  color: var(--main-bg-color3);
-}
-
-.design div:nth-child(2) {
-  width: 18%;
-  height: 400px;
-  margin-top: -100px;
-  background-color: var(--main-bg-color5);
-  transform: rotate(-15deg);
-  transform-origin: 0% 100%;
-  transition-duration: 0.4s;
-}
-
-.design div:nth-child(2):hover {
-  transform: rotate(0);
-}
-
-/* ========================================= web technologies ======================================== */
-
 .web-tech {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 2fr;
   margin-top: 100px;
   width: 100%;
-  justify-items: space-between;
-}
-
-.web-tech div {
-  background-color: var(--main-bg-color9);
-  border: none;
-  border-radius: 10px;
-  padding: 40px;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
-  padding-bottom: 0;
-}
-
-.web-tech div p:first-child {
-  font-size: 18px;
-  text-transform: uppercase;
 }
 
 .web-tech div h3 {
   font-size: 35px;
-}
-
-.web-tech div p:nth-child(3) {
-  font-size: 18px;
 }
 
 .web-tech div div {
@@ -580,56 +297,6 @@ body * {
   margin-top: 40px;
   cursor: pointer;
 }
-
-.web-tech div:last-child {
-  background-color: var(--main-bg-color4);
-}
-
-.web-tech div:last-child .web-tech-last-1 {
-  background-color: var(--main-bg-color3);
-  border: 20px solid var(--main-bg-color7);
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
-  margin: 0 auto 0 auto;
-}
-
-.web-tech div:last-child .web-tech-last-2 {
-  margin: auto;
-  width: 90%;
-}
-
-.web-tech div:last-child .web-tech-last-2 div:first-child {
-  width: 60%;
-  height: 80px;
-  background-color: var(--main-bg-color8);
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-.web-tech div:last-child .web-tech-last-2 div:nth-child(2) {
-  width: 40%;
-  height: 80px;
-  background-color: var(--main-bg-color5);
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.web-tech div:last-child h3 {
-  width: 70%;
-  height: 50px;
-  background-color: var(--main-bg-color8);
-  margin: 50px auto 50px 0;
-}
-
-.web-tech div:last-child p {
-  width: 90%;
-  height: 15px;
-  background-color: var(--main-bg-color8);
-  margin: 10px auto 10px 0;
-}
-
-/* =============================================== Footer ======================================= */
 
 .footer {
   background-color: var(--main-bg-color3);
@@ -680,10 +347,147 @@ body * {
   align-self: flex-start;
 }
 
-.granny div:first-child p {
+.silvester {
+  width: 300px;
+  height: 150px;
+  background-color: var(--main-bg-color7);
+  border: 5px solid var(--main-bg-color1);
+  border-radius: 40%;
+}
+
+/* Children */
+
+.person-of-the-week div:hover {
+  transform: rotate(0);
+}
+
+.header-logo-name div:last-child {
+  height: 20%;
+  width: 70%;
+}
+
+.nav-item:last-child {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+  border-radius: 5px;
+  background-color: var(--main-bg-color4);
+}
+
+.title-card:nth-child(2) {
+  background-color: var(--main-bg-color4);
+}
+
+.title-card:nth-child(3) {
+  background-color: var(--main-bg-color5);
+}
+
+.title-card:nth-child(4) {
+  padding-top: 70px;
+  background-color: var(--main-bg-color3);
+  height: 600px;
+}
+
+.title-card:nth-child(5) {
+  padding-top: 70px;
+  background-color: var(--main-bg-color4);
+  height: 600px;
+}
+
+.article-card:nth-child(5) {
+  background-color: var(--main-bg-color3);
+  padding-top: 30px;
+  padding-left: 100px;
+  border-radius: 10px;
+}
+
+.nav-item:last-child div {
+  height: 50%;
+  width: 50%;
+  background-color: var(--main-bg-color9);
+}
+
+.title-profile div:nth-child(1) {
+  width: 60px;
+  height: 60px;
+  background-color: var(--main-bg-color7);
+  margin-right: 30px;
+  transform: rotate(-15deg);
+  transform-origin: 0% 100%;
+  transition-duration: 0.5s;
+  border-radius: 5px;
+  border: 5px solid var(--main-bg-color9);
+}
+
+.title-profile div:nth-child(2) {
+  width: 200px;
+  height: 20px;
+  background-color: var(--main-bg-color9);
+}
+
+.title div:first-child,
+.title div:nth-child(2) {
+  background-color: var(--main-bg-color9);
   width: 400px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.title div:nth-child(3) {
+  background-color: var(--main-bg-color9);
+  width: 200px;
   height: 15px;
-  background-color: var(--main-bg-color8);
+}
+
+.encourage div:nth-child(2) {
+  height: 50px;
+  width: 60%;
+  background-color: var(--main-bg-color9);
+  margin-top: 40px;
+}
+
+.encourage div:nth-child(3) {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  height: 50px;
+  width: 45%;
+  background-color: var(--main-bg-color9);
+}
+
+.encourage p:nth-child(4) {
+  width: 60%;
+  height: 20px;
+  background-color: var(--main-bg-color9);
+}
+
+.encourage p:nth-child(5) {
+  width: 50%;
+  height: 20px;
+  margin-top: 0;
+  background-color: var(--main-bg-color9);
+  margin-bottom: 50px;
+}
+
+.encourage div:nth-child(6) {
+  width: 30%;
+  height: 60px;
+  cursor: pointer;
+  background-color: var(--main-bg-color9);
+  color: var(--main-bg-color3);
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 50px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.encourage div:last-child {
+  background-color: var(--main-bg-color4);
+  height: 550px;
+  width: 550px;
+  border: none;
+  border-radius: 50%;
 }
 
 .granny div:nth-child(2) {
@@ -691,6 +495,98 @@ body * {
   width: 400px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.web-tech div:last-child {
+  background-color: var(--main-bg-color4);
+}
+
+.design div:nth-child(2) {
+  width: 18%;
+  height: 400px;
+  margin-top: -100px;
+  background-color: var(--main-bg-color5);
+  transform: rotate(-15deg);
+  transform-origin: 0% 100%;
+  transition-duration: 0.4s;
+}
+
+.design div:first-child {
+  width: 60%;
+}
+
+.article-card p:nth-child(2) {
+  width: 30%;
+  height: 10px;
+  background-color: var(--main-bg-color4);
+}
+
+.article-card p:nth-child(n+3) {
+  width: 70%;
+  height: 13px;
+  background-color: var(--main-bg-color6);
+}
+
+.encourage p:first-child {
+  text-transform: uppercase;
+}
+
+.design div:first-child h3 {
+  width: 50%;
+  font-size: 40px;
+  color: var(--main-bg-color8);
+  text-decoration: underline;
+}
+
+.design div:first-child div {
+  background-color: var(--main-bg-color9);
+  border: none;
+  border-radius: 10px;
+  color: var(--main-bg-color2);
+  width: 45%;
+  font-size: 20px;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.web-tech div:last-child h3 {
+  width: 70%;
+  height: 50px;
+  background-color: var(--main-bg-color8);
+  margin: 50px auto 50px 0;
+}
+
+.web-tech div p:first-child {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.web-tech div p:nth-child(3) {
+  font-size: 18px;
+}
+
+.encourage div:last-child div {
+  background-color: var(--main-bg-color2);
+  height: 450px;
+  width: 300px;
+  border-radius: 0;
+  margin: auto;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.web-tech div:last-child p {
+  width: 90%;
+  height: 15px;
+  background-color: var(--main-bg-color8);
+  margin: 10px auto 10px 0;
+}
+
+.granny div:first-child p {
+  width: 400px;
+  height: 15px;
+  background-color: var(--main-bg-color8);
 }
 
 .granny div:nth-child(2) p {
@@ -701,10 +597,100 @@ body * {
   background-color: var(--main-bg-color8);
 }
 
-.silvester {
+.more-articles div div:hover {
+  transform: rotate(0);
+}
+
+.nav-item:last-child div:last-child {
+  width: 25%;
+}
+
+.person-of-the-week article p:first-child {
+  width: 40%;
+  height: 20px;
+  background-color: var(--main-bg-color6);
+  margin-bottom: 50px;
+}
+
+.person-of-the-week article p:nth-child(n+2) {
+  width: 100%;
+  height: 20px;
+  background-color: var(--main-bg-color6);
+}
+
+.more-articles div article p:first-child {
+  width: 150px;
+  height: 10px;
+  background-color: var(--main-bg-color4);
+}
+
+.more-articles div article p:nth-child(n+3) {
+  width: 500px;
+  height: 15px;
+  background-color: var(--main-bg-color6);
+}
+
+.design div:first-child p:first-child {
+  width: 30%;
+  height: 15px;
+  margin: 0;
+  color: var(--main-bg-color8);
+}
+
+.design div:first-child p:nth-child(n+3) {
+  color: var(--main-bg-color9);
+  font-size: 15px;
+}
+
+/* hover */
+
+.article-card:hover {
+  transform: scale(1.2);
+  background-color: var(--main-bg-color9);
+}
+
+.title-profile div:nth-child(1):hover {
+  transform: rotate(0);
+}
+
+.encourage div:nth-child(6):hover {
+  color: var(--main-bg-color5);
+}
+
+.design div:nth-child(2):hover {
+  transform: rotate(0);
+}
+
+.design div:first-child div:hover {
+  color: var(--main-bg-color3);
+}
+
+.web-tech div:last-child .web-tech-last-2 {
+  margin: auto;
+  width: 90%;
+}
+
+.web-tech div:last-child .web-tech-last-2 div:first-child {
+  width: 60%;
+  height: 80px;
+  background-color: var(--main-bg-color8);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.web-tech div:last-child .web-tech-last-1 {
+  background-color: var(--main-bg-color3);
+  border: 20px solid var(--main-bg-color7);
+  border-radius: 50%;
+  height: 300px;
   width: 300px;
-  height: 150px;
-  background-color: var(--main-bg-color7);
-  border: 5px solid var(--main-bg-color1);
-  border-radius: 40%;
+  margin: 0 auto 0 auto;
+}
+
+.web-tech div:last-child .web-tech-last-2 div:nth-child(2) {
+  width: 40%;
+  height: 80px;
+  background-color: var(--main-bg-color5);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
