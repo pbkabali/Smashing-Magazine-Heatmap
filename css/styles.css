@@ -141,9 +141,9 @@ body * {
 
 .title-card {
   height: 700px;
-  padding-top: 30%;
+  padding-top: 210px;
   padding-left: 11%;
-  padding-bottom: 10%;
+  padding-bottom: 70px;
   cursor: pointer;
 }
 
@@ -156,13 +156,15 @@ body * {
 }
 
 .title-card:nth-child(4) {
-  padding-top: 10%;
+  padding-top: 70px;
   background-color: var(--main-bg-color3);
+  height: 600px;
 }
 
 .title-card:nth-child(5) {
-  padding-top: 10%;
+  padding-top: 70px;
   background-color: var(--main-bg-color4);
+  height: 600px;
 }
 
 .title-profile div:nth-child(1) {
@@ -287,7 +289,7 @@ body * {
   font-weight: 100;
   cursor: pointer;
   width: 220px;
-  margin: 150px auto;
+  margin: 50px auto;
   padding-bottom: 10px;
 }
 
@@ -469,6 +471,7 @@ justify-content: center;
   padding: 60px;
   background-color: var(--main-bg-color3);
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .design div:first-child {
@@ -585,4 +588,84 @@ justify-content: center;
   height: 300px;
   width: 300px;
   margin: 0 auto 0 auto;
+}
+
+/* =============================================== Footer ======================================= */
+
+.footer {
+  background-color: var(--main-bg-color3);
+  color: white;
+  text-align: center;
+  padding: 30px 80px 30px 80px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer h4 {
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.footer .links {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.footer .links div {
+  width: 110px;
+  height: 20px;
+  background-color: var(--main-bg-color9);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.tweety {
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 80%;
+  margin-left: 200px;
+}
+.tweety-left{
+  width: 100px;
+  height: 200px;
+  background-color: var(--main-bg-color7);
+  border: 5px solid var(--main-bg-color1);
+  border-top-left-radius: 40%;
+  border-top-right-radius: 40%;
+
+}
+
+.granny {
+  align-self: flex-start;
+}
+
+.granny div:first-child p {
+  width: 400px;
+  height: 15px;
+  background-color: var(--main-bg-color8);
+}
+
+.granny div:nth-child(2){
+  margin-top: 60px;
+  width: 400px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.granny div:nth-child(2) p {
+  width: 80px;
+  height: 15px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  background-color: var(--main-bg-color8);
+}
+
+.silvester {
+  width: 300px;
+  height: 150px;
+  background-color: var(--main-bg-color7);
+  border: 5px solid var(--main-bg-color1);
+  border-radius: 40%;
 }
